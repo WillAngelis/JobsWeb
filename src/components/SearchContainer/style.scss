@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+nav {
+  max-width: 1340px;
+  height: 8.75rem;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://s3-alpha-sig.figma.com/img/819d/1e39/c155567b9ef7880cd9b854cd00a20f4f?Expires=1648425600&Signature=Ei4FlYdenHqYNxpBce98pApXhnX9Rg4ljzBYcwvJYPKo5S1nkNsgMcQ8Vj05KT3CwNm1ZBFC7mLlgYibxrxBjBs518zqHEazOL85H71~x02sPUD3M3i3Hxz4ViwGktls3ggEVLD4stcpeshrEjcnHhpng7fptb7d~iJ9JzjiyVpdMN6gEfViZq0n1gbxg1aoj-KzYStg2nGPbJ6DuVE3D2dYwbjsIA-V1w2V144RtAVC5whBZ1hQUApM7KnRzqfpIHPERR0S1Et0Gmj1XNK9xdn-l85tmnzXXYuUyT7VU4BEEUwmDZSqVpRjXuCnCaYpQumI79XueEB5MYujU1i99Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  form {
+    width: 840px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      width: 100%;
+      height: 55px;
+      padding: 10px 20px;
+      border: none;
+      box-sizing: border-box;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+    input::placeholder {
+      color: #b9bdcf;
+    }
+    button {
+      box-sizing: border-box;
+      width: 140px;
+      height: 45px;
+      border: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      position: absolute;
+      right: 4px;
+      outline: none;
+      z-index: 2;
+      border-radius: 4px;
+      background-color: #1e86ff;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+}
