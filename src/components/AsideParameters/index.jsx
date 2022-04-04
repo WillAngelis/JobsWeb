@@ -1,12 +1,11 @@
 import React from 'react';
-import TypeOfJob from '../TypeOfJob';
 import './style.scss';
 
-const AsideParameters = () => {
+const AsideParameters = ({ children }) => {
   return (
     <>
       <aside>
-        <TypeOfJob />
+        <>{children}</>
         <section className="searchLocation">
           <h3>LOCATION</h3>
           <input type="text" placeholder="City, state, zip code or country" />

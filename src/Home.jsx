@@ -3,6 +3,7 @@ import AsideParameters from './components/AsideParameters';
 import Container from './components/UI/Container';
 import Header from './components/UI/Header';
 import Job from './components/Job';
+import TypeOfJob from './components/TypeOfJob';
 import Button from './components/Button/Button';
 
 import api from './services/api';
@@ -37,7 +38,9 @@ const Home = () => {
         </form>
       </nav>
       <div className="container">
-        <AsideParameters />
+        <AsideParameters>
+          <TypeOfJob />
+        </AsideParameters>
         <section className="jobs">
           {jobs.map((job) => (
             <Job key={job.id} {...job} />
