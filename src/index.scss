@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .container {
   max-width: 1340px;
   margin: 10px auto;
@@ -5,4 +7,43 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+.jobs {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  max-width: 1340px;
+  height: 8.75rem;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://s3-alpha-sig.figma.com/img/819d/1e39/c155567b9ef7880cd9b854cd00a20f4f?Expires=1649635200&Signature=cHJSzgh5wDItWjfKaYW5MejepoQV-Climq1mcaiqWaPiQvAGaVM6Ic9VSXd9X29m6AitbthFWrvoYJtx6LZfRXXhn9QSl6gZl5sJBoweTx7bVZn84ZAZqCpj9-Mi79AmoOv8U52qHTgxj59eyg-3qSXsOjWxFMCVxCJlWhaiw6mCUsxFgW9tfXpzE1sj81nqlGe7JUndExU~BuavkyEqCJ1ehY~SXyqI4RAkezG~cVHXBiiVfGiFpeBfp1kB483tbjvr4CsV3o1ngbyFFTFvyBrBy32x8btrbEyjMjwMDs3tWHkWaVE5qpkFnKhw6JWZte80TWYQXdyKN0Gs3SIsrA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  form {
+    width: 840px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      width: 100%;
+      height: 55px;
+      padding: 10px 20px;
+      border: none;
+      box-sizing: border-box;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+    input::placeholder {
+      color: #b9bdcf;
+    }
+  }
 }

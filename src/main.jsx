@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Index from './Index';
+import Home from './Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Index />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
