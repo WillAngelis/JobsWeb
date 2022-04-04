@@ -1,14 +1,12 @@
 import React from 'react';
+import TypeOfJob from '../TypeOfJob';
 import './style.scss';
 
 const AsideParameters = () => {
   return (
     <>
       <aside>
-        <section className="jobsType">
-          <input type="checkbox" id="jobtype" name="jobtype" value="" />
-          <label htmlFor="jobtype"> Full time </label>
-        </section>
+        <TypeOfJob />
         <section className="searchLocation">
           <h3>LOCATION</h3>
           <input type="text" placeholder="City, state, zip code or country" />
